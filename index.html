@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#000000">
+<title>Happy Birthday Akka 💗</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main class="app" aria-label="Birthday surprise">
+  <section class="screen active" data-screen="1"><img src="assets/page1.jpg" alt="Happy Birthday Akka"><button class="zone zone1" data-next="2" aria-label="Click Here"></button></section>
+  <section class="screen" data-screen="2"><img src="assets/page2.jpg" alt="Birthday letter"><button class="zone zone2" data-next="3" aria-label="Next Surprise"></button></section>
+  <section class="screen countdown-screen" data-screen="3" data-countdown="20" data-next="4"><img src="assets/page3.jpg" alt="Make a Wish"><div class="countdown-cover"><span id="count3">20</span></div><button class="zone zone3" data-next="4" aria-label="Continue"></button></section>
+  <section class="screen" data-screen="4"><img src="assets/page4.jpg" alt="Flowers surprise"><button class="zone zone4" data-next="5" aria-label="Next Surprise"></button></section>
+  <section class="screen countdown-screen" data-screen="5" data-countdown="13" data-next="6"><img src="assets/page5.jpg" alt="Another surprise"><div class="countdown-cover"><span id="count5">13</span></div><button class="zone zone5" data-next="6" aria-label="Continue"></button></section>
+  <section class="screen" data-screen="6"><img src="assets/page6.jpg" alt="Final Surprise bouquet"><button class="zone zone6" data-next="7" aria-label="Final Surprise"></button></section>
+  <section class="screen" data-screen="7"><img src="assets/page7.jpg" alt="Stay happy stay you"><button class="zone zone7" data-next="8" aria-label="Final Surprise"></button></section>
+  <section class="screen" data-screen="8"><img src="assets/page8.jpg" alt="Birthday final message"></section>
+  <div class="progress" id="progress">1/8</div>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
